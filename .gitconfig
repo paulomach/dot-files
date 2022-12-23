@@ -1,0 +1,28 @@
+[user]
+    email = paulo.machado@canonical.com
+    name = Paulo Machado
+[alias]
+    gr = log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    up = pull
+    ls = ls-files
+    log = log --all
+    fa = fetch --all
+
+[gui]
+	fontdiff = -family \"Fira Code\" -size 9 -weight normal -slant roman -underline 0 -overstrike 0
+	tabsize = 4
+[cola]
+	spellcheck = false
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
+[gitreview]
+	username = paulomach
+[push]
+	autoSetupRemote = true
+
